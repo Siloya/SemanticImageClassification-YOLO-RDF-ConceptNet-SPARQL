@@ -23,15 +23,17 @@ Ensure you have the following installed:
 ```sh
 git clone https://github.com/Siloya/SemanticImageClassification-YOLO-RDF-ConceptNet-SPARQL.git
 cd SemanticImageClassification-YOLO-RDF-ConceptNet-SPARQL
-
+```
 ### 2- install Dependencies
 ```sh
 pip install -r requirements.txt
+```
 ### 3: Start Blazegraph
 ```sh
 java -server -Xmx4g -jar blazegraph.jar
-
+```
 ### 4- Start the Flask Server
 ```sh
 python app.py
+```
 
