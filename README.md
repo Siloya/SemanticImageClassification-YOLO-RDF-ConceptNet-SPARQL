@@ -68,10 +68,9 @@ http://127.0.0.1:5000
 - **SPARQL** – Query language for retrieving RDF data from Blazegraph.
 JavaScript (D3.js)
 HTML & CSS
+## Overview 
+![Image1](screen/image1.jpg)  
+![Image2](screen/image2.jpg)  
+![Image3](screen/image3.jpg)
 
-## Dependencies
-- Flask
-- Flask-CORS
-- Requests
-- SPARQLWrapper
 
