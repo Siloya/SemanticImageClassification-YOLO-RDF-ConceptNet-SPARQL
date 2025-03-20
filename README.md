@@ -13,7 +13,6 @@ This project integrates **YOLOv8**, **ConceptNet**, and **Blazegraph RDF store**
 ## Installation
 
 ### Prerequisites
-Ensure you have the following installed
 - **Python 3.8+**
 - **pip** (Python package manager)
 - **Git**
@@ -28,13 +27,22 @@ cd SemanticImageClassification-YOLO-RDF-ConceptNet-SPARQL
 ```sh
 pip install -r requirements.txt
 ```
-### 3: Start Blazegraph
+### 3: Start the Blazegraph SPARQL Database
+Ensure Blazegraph is running on localhost:9999. If you don’t have Blazegraph installed:
 ```sh
 java -server -Xmx4g -jar blazegraph.jar
 ```
-### 4: Start the Flask Server
+Then, access Blazegraph at:
+```sh
+ http://localhost:9999/blazegraph
+```
+### 4: Start the Backend (Flask API)
 ```sh
 python app.py
+```
+The backend should start on:
+```sh
+http://127.0.0.1:5000
 ```
 ## Usage
 
@@ -50,4 +58,20 @@ python app.py
 ### 3. Visualize RDF Graph
 - After processing an image, the **RDF graph visualization** will be displayed automatically.
 
+## Technologies Used
+- **Python** – Main programming language for the backend.
+- **Flask** – Web framework for handling the server and API endpoints.
+- **D3.js** – JavaScript library for RDF graph visualization.
+- **YOLOv8 (Ultralytics)** – Object detection model for identifying objects in images.
+- **ConceptNet API** – Extracting semantic relationships between detected objects.
+- **Blazegraph** – RDF triple store for storing and querying semantic data.
+- **SPARQL** – Query language for retrieving RDF data from Blazegraph.
+JavaScript (D3.js)
+HTML & CSS
+
+## Dependencies
+- Flask
+- Flask-CORS
+- Requests
+- SPARQLWrapper
 
