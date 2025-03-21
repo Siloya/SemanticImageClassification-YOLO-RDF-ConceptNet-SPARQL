@@ -55,7 +55,6 @@ http://127.0.0.1:5000
 ## Technologies Used
 - **Python** – Main programming language for the backend.
 - **Flask** – Web framework for handling the server and API endpoints.
-- **D3.js** – JavaScript library for RDF graph visualization.
 - **YOLOv8 (Ultralytics)** – Object detection model for identifying objects in images.
 - **ConceptNet API** – Extracting semantic relationships between detected objects.
 - **Blazegraph** – RDF triple store for storing and querying semantic data.
