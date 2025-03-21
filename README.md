@@ -68,7 +68,7 @@ http://127.0.0.1:5000
 ![Image3](screen/image3.jpeg)
 ![Imag5](screen/image6.jpeg)
 ![Image6](screen/image5.jpeg)
-![Image7](screen/image.jpeg)
+![Image7](screen/image.png)
 ![Image8](screen/image8.jpeg)
 
 
