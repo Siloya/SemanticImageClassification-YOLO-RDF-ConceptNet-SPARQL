@@ -1,7 +1,6 @@
-# RDF-Based Image Classification and Visualization with ConceptNet
-
+# Semantic image recognition and storage in an OWL RDF knowledge graph 
 ## Overview
-This project integrates **YOLOv8**, **ConceptNet**, and **Blazegraph RDF store** to classify objects in images and link them to semantic concepts. It allows visualization and querying of RDF data using **SPARQL**.
+This project integrates object detection and semantic linking to recognize objects in images and represent them in an RDF knowledge graph. Using **YOLOv8** and **ConceptNet**, it generates RDF triples stored in **Blazegraph**, enabling SPARQL querying and semantic graph visualization in compliance with OWL/RDF standards.
 
 ## Features
 - **Object detection** using YOLOv8.
@@ -53,17 +52,16 @@ http://127.0.0.1:5000
 
 ### 3. Visualize RDF Graph
 - After processing an image, the **RDF graph visualization** will be displayed automatically.
-
+- Explore the relationships between detected objects and concepts .
 ## Technologies Used
-- **Python** – Main programming language for the backend.
-- **Flask** – Web framework for handling the server and API endpoints.
-- **YOLOv8 (Ultralytics)** – Object detection model for identifying objects in images.
-- **ConceptNet API** – Extracting semantic relationships between detected objects.
-- **Blazegraph** – RDF triple store for storing and querying semantic data.
-- **SPARQL** – Query language for retrieving RDF data from Blazegraph.
-- **D3.js** –  JavaScript library for RDF graph visualization.
-- **JavaScript** – Frontend scripting language for interaction and graph rendering.
-- **HTML & CSS** – Used to build and style the user interface for uploading images, querying RDF data, and visualizing graphs.
+- **Python** – Backend development.
+- **Flask** – Web API and interface.
+- **YOLOv8 (Ultralytics)** – Real-time object detection.
+- **ConceptNet API** – External semantic knowledge source.
+- **Blazegraph** – External semantic knowledge source.
+- **SPARQL** – Query language for RDF data
+- **D3.js** –   Interactive graph visualization.
+- **HTML/CSS/JavaScript** – Web interface and visualization logic.
 ## Overview 
 ![Image1](screen/image1.jpeg)   
 ![Image2](screen/image2.jpeg)  
