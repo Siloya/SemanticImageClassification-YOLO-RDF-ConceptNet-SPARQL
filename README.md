@@ -9,6 +9,7 @@ This project integrates **YOLOv8**, **ConceptNet**, and **Blazegraph RDF store**
 - **RDF generation** and storage in Blazegraph.
 - **SPARQL querying** for structured data retrieval.
 - **Graph visualization** of RDF relationships.
+- **RDF files** are automatically stored in the output/ folder.
 
 ## Installation
 
@@ -44,6 +45,7 @@ http://127.0.0.1:5000
 - Open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 - Click **"Choose Image"** and upload an image.
 - The system detects objects, links them to **ConceptNet**, and stores **RDF data** in **Blazegraph**.
+- The generated RDF files are saved in the output/ directory.
 
 ### 2. Query RDF Data
 - Use the **SPARQL Query** section in the web interface.
