@@ -12,12 +12,6 @@ This project integrates **YOLOv8**, **ConceptNet**, and **Blazegraph RDF store**
 
 ## Installation
 
-### Prerequisites
-- **Python 3.8+**
-- **pip** (Python package manager)
-- **Git**
-- **Blazegraph** (RDF database)
-
 ### 1: Clone the Repository
 ```sh
 git clone https://github.com/Siloya/SemanticImageClassification-YOLO-RDF-ConceptNet-SPARQL.git
@@ -66,11 +60,18 @@ http://127.0.0.1:5000
 - **ConceptNet API** – Extracting semantic relationships between detected objects.
 - **Blazegraph** – RDF triple store for storing and querying semantic data.
 - **SPARQL** – Query language for retrieving RDF data from Blazegraph.
-JavaScript (D3.js)
-HTML & CSS
+- **D3.js** –  JavaScript library for RDF graph visualization.
+- **JavaScript** – Frontend scripting language for interaction and graph rendering.
+- **HTML & CSS** – Used to build and style the user interface for uploading images, querying RDF data, and visualizing graphs.
 ## Overview 
-![Image1](screen/image1.jpg)  
-![Image2](screen/image2.jpg)  
-![Image3](screen/image3.jpg)
+![Image1](screen/image1.jpeg)   
+![Image2](screen/image2.jpeg)  
+![Image3](screen/image3.jpeg)
+![Imag5](screen/image5.jpeg)
+![Image6](screen/image6.jpeg)
+![Image7](screen/image7.jpeg)
+![Image8](screen/image8.jpeg)
+
+
 
 
